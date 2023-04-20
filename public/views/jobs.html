@@ -1,0 +1,19 @@
+<div class="panel panel-default" ng-init="getJobs()">
+  <div class="panel-heading">Latest jobs</div>
+  <div class="panel-body">
+  <div class="row">
+      <div ng-repeat="job in jobs" >
+            <div class="col-md-12" >
+               Job: <strong>{{job.title}}</strong>  
+                  <p>{{job.description}}</p>
+                  Rate: <em>{{job.rate}}</em><br/>
+                  {{job.links}}
+                  <a href="#/jobs/details/{{job._id}}" class="btn btn-primary">View  details</a>
+                  <hr/>
+              </div>
+      </div>
+  </div>
+  </div>
+</div>
+
+

@@ -1,0 +1,19 @@
+{
+  "name": "jobstore",
+  "version": "1.0.0",
+  "description": "api - mongodb angular ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+    
+    "dependencies":{
+        "mongoose": "*",
+        "express": "*",
+        "body-parser": "*"
+},
+    
+
+  "author": "John Amuesi",
+  "license": "ISC"
+}

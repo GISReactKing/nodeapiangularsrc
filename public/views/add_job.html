@@ -1,0 +1,56 @@
+<a href="#/jobs" >Go back</a>
+ <div class="panel panel-default">
+  <div class="panel-heading"><h3>Add job</h3> </div>
+  <div class="panel-body">
+  <div class="row">
+      <div>
+            <div class="col-md-12" >
+              
+ <form class="form-horizontal" ng-submit="addJob()">
+<fieldset>
+<div class="form-group">
+  <label class="col-md-4 control-label" >Title</label>  
+  <div class="col-md-4">
+  <input id="textinput" ng-model="job.title" type="text" placeholder="Title" class="form-control input-md" name="title">
+  </div>
+</div>
+<div class="form-group">
+  <label class="col-md-4 control-label" >Type</label>  
+  <div class="col-md-4">
+ <select ng-model="job.type" class="form-control" name="type">
+     <option value="Contract">Contract</option>
+     <option value="Permanent">Permanent</option>
+     <option value="Temp">Temp</option>
+ </select>
+  </div>
+</div>
+<div class="form-group">
+  <label class="col-md-4 control-label" >Location</label>  
+  <div class="col-md-4">
+  <input  name="location" id="textinput" ng-model="job.location" type="text" placeholder="Location" class="form-control input-md">
+  </div>
+</div>
+<div class="form-group">
+  <label class="col-md-4 control-label" >Rate</label>  
+  <div class="col-md-4">
+  <input name="rate" id="textinput" ng-model="job.rate" type="text" placeholder="Rate" class="form-control input-md">
+  </div>
+</div>
+ <div class="form-group">
+  <label class="col-md-4 control-label" >Link</label>  
+  <div class="col-md-4">
+  <input id="textinput" ng-model="job.link" type="text" placeholder="Link" class="form-control input-md" name="link">
+  </div>
+</div>
+
+</fieldset>
+
+<button type="submit" class="btn btn-default">Submit</button>
+</form>
+  </div>
+      </div>
+  </div>
+  </div>
+</div> 
+ 
+
