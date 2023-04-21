@@ -15,7 +15,7 @@ Job = require('./models/job');
 
 // connect to mongoose
 
-mongoose.connect('mongodb://jobstore:jobstore@ds059115.mongolab.com:59115/jobstore');
+mongoose.connect('mongodb_connection_uri');
 
 // db object
 var db = mongoose.connection;
